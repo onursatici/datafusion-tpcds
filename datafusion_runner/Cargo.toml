@@ -1,0 +1,10 @@
+[package]
+name = "datafusion_runner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+datafusion = "42.1.0"
+regex = "1.11.0"
+tokio = { version = "1.41.0", features = ["fs", "macros", "rt-multi-thread"] }
